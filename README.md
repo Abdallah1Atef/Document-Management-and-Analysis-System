@@ -21,5 +21,5 @@ This project is a Python-based document management system that allows users to i
 - **NLTK**: For text processing and stopword removal.
 - **win32com.client**: For interacting with Microsoft Word to extract metadata from DOCX files.
 
-## Installation
+
 
