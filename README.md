@@ -23,8 +23,3 @@ This project is a Python-based document management system that allows users to i
 
 ## Installation
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/document-management-system.git
-   cd document-management-system
-   
