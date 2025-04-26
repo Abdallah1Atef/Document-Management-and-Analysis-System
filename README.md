@@ -1,25 +1,49 @@
-# Document Management and Analysis System
+# 📄 Document Management and Analysis System
 
-This project is a Python-based document management system that allows users to import, search, and analyze documents stored in a MongoDB database. It supports various file formats (PDF, DOCX, TXT) and provides advanced features such as document similarity comparison and text analysis.
+## Overview
+This project is a Python-based **Document Management System** designed to import, store, search, and analyze documents within a **MongoDB** database. It supports multiple file formats including **PDF**, **DOCX**, and **TXT**, and offers advanced features such as document similarity analysis and detailed text analytics.
 
-## Features
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Future Enhancements](#future-enhancements)
 
-- **File Import**: Import and store documents (PDF, DOCX, TXT) in a MongoDB database using GridFS.
-- **File Management**: Delete documents from the database.
-- **Document Search**: Search documents based on metadata (name, upload date, modify date) or content. Supports combination searches with multiple conditions.
-- **Text Analysis**: Extract and display metadata such as word count, character count, and page count for each document.
-- **Document Similarity**: Compare two documents using Cosine Similarity, Jaccard Similarity, and Euclidean Distance metrics.
-- **User Interface**: Command-line interface (CLI) for easy interaction with the system.
+## ✨ Features
+- **File Import:**  
+  Import and store documents (PDF, DOCX, TXT) in MongoDB using GridFS, enabling scalable storage and retrieval.
+  
+- **File Management:**  
+  Manage documents by deleting or updating records in the database as needed.
+  
+- **Document Search:**  
+  Perform efficient searches based on metadata (filename, upload date, modification date) and document content. Supports multi-condition combination searches.
+  
+- **Text Analysis:**  
+  Automatically extract and display detailed metadata, including:
+  - Word count
+  - Character count
+  - Page count
+  
+- **Document Similarity Comparison:**  
+  Compare two documents using various similarity metrics:
+  - Cosine Similarity
+  - Jaccard Similarity
+  - Euclidean Distance
+  
+- **User Interface:**  
+  Provides an intuitive **Command-Line Interface (CLI)** for seamless user interaction.
 
-## Technologies Used
+## 🛠️ Technologies Used
+- **Python** — Core programming language.
+- **MongoDB** — NoSQL database for storing documents and metadata.
+- **GridFS** — Efficiently stores and retrieves large documents in MongoDB.
+- **PyPDF2** — Extracts text and metadata from PDF files.
+- **python-docx** — Processes DOCX files for text extraction.
+- **NLTK (Natural Language Toolkit)** — Handles text processing, tokenization, and stopword removal.
+- **win32com.client** — Interfaces with Microsoft Word to access advanced DOCX metadata.
 
-- **Python**: Core programming language.
-- **MongoDB**: Database for storing documents and metadata.
-- **GridFS**: For storing large files in MongoDB.
-- **PyPDF2**: For extracting text and metadata from PDF files.
-- **docx**: For extracting text from DOCX files.
-- **NLTK**: For text processing and stopword removal.
-- **win32com.client**: For interacting with Microsoft Word to extract metadata from DOCX files.
-
-
-
+## 📚 Future Enhancements
+- Develop a web-based user interface (UI) for enhanced accessibility.
+- Implement document versioning and edit tracking.
+- Add machine learning models for document classification.
